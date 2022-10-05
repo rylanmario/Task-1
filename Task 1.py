@@ -1,7 +1,7 @@
 # Name: calculator.py
 # Author: Rylan Fessey
 # Date created: October 2nd, 2022
-# Date last modified: October 3nd, 2022
+# Date last modified: October 4th, 2022
 # Purpose: This program will take the dimensions of shapes, and calculate the area and parameter of the shape chosen.
 
 from math import pi
@@ -23,8 +23,6 @@ if (selection == 1):
     circumfrence = 2 * pi * radius
     print("The area of the circle is", circlearea, "cm2")
     print("The circumference of the circle is", circumfrence, "cm")
-    print("\n")
-    input("Press any key to exit")
 #Calculations for Circle
 
 elif (selection == 2):
@@ -34,8 +32,6 @@ elif (selection == 2):
     recpermimeter = (reclength + recwidth) * 2
     print("The perimeter of the rectangle is", recpermimeter, "cm.")
     print("The area of the rectangle is", recarea, "cm2")
-    print("\n")
-    input("Press any key to exit")
 # Calculations for rectangle
 
 elif (selection == 3):
@@ -47,8 +43,6 @@ elif (selection == 3):
     triarea = base * height / 2
     print("The permimeter of the triangle is", tripermimeter, "cm")
     print("The area of the triangle is", triarea, "cm2")
-    print("\n")
-    input("Press any key to exit")
 # Calculations for triangle
 
 elif (selection == 4):
@@ -58,3 +52,8 @@ elif (selection == 4):
 else:
     print("Invalid Number. Please choose option 1-4")
 # What will be displayed if the user types a number that is not 1-4.
+
+#Exit for program after calculations.
+print("\n")
+input("Press enter to quit: ")
+quit()
