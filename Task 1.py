@@ -21,6 +21,7 @@ if (selection == 1):
     radius = float(input("What is the radius of the circle in cm: "))
     circlearea = pi * radius**2
     circumfrence = 2 * pi * radius
+    print("\n")
     print("The area of the circle is", circlearea, "cm2")
     print("The circumference of the circle is", circumfrence, "cm")
 #Calculations for Circle
@@ -30,6 +31,7 @@ elif (selection == 2):
     reclength = float(input("What is the length of the rectangle in cm: "))
     recarea = reclength * recwidth 
     recpermimeter = (reclength + recwidth) * 2
+    print("\n")
     print("The perimeter of the rectangle is", recpermimeter, "cm.")
     print("The area of the rectangle is", recarea, "cm2")
 # Calculations for rectangle
@@ -41,6 +43,7 @@ elif (selection == 3):
     height = float(input("what is the height of the triangle: "))
     tripermimeter = base + side1 + side2
     triarea = base * height / 2
+    print("\n")
     print("The permimeter of the triangle is", tripermimeter, "cm")
     print("The area of the triangle is", triarea, "cm2")
 # Calculations for triangle
